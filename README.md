@@ -31,15 +31,17 @@ https://www.thecocktaildb.com/api.php?ref=apilist.fun
 
 * The searchAndRender Function 
 
-    - The searchAndRender function takes the data form the search and renders it to the page 
-    - searchAndRender uses a callback in the button event listener to call libraryRender which takes an argument of cocktailLibrary (found at the top of the page)
+    - The searchAndRender function takes the data form the search and renders it to the page.
+    - searchAndRender uses a callback in the button event listener to call libraryRender which takes an argument of cocktailLibrary (found at the top of the page).
 
 * The libraryRender Function: 
-    - This function takes the drinks that have been clicked on the add to library button and renders them to the library div
-    - Once a cocktail image has been added to the cocktail library and event listener is added for when a user clicks that image
-    - Once a user clicks that image renderLibraryCard is then called with the argument of the drink that was clicked 
+    - This function takes the drinks that have been clicked on the add to library button and renders them to the library div.
+    - Once a cocktail image has been added to the cocktail library and event listener is added for when a user clicks that image. 
+    - Once a user clicks that image renderLibraryCard is then called with the argument of the drink that was clicked. 
 
-* The renderLibrary Function 
+* The renderLibraryCard Function 
+    - The renderLibrary Function does the exact ssame thing and the searchAndRender function with some small tweaks.
+    - In renders a bigger card in the middle of the page with the drinks. name, ingrediants, and the ability to remove that drink from the library, 
 
     
     
