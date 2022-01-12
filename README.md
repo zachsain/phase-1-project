@@ -22,5 +22,13 @@ https://www.thecocktaildb.com/api.php?ref=apilist.fun
 
 # How to interpret the code 
 
-* 
+* The first function in the code is the fetch request 
+    - This is where we are fetching the data from the api. 
+    - This function will later be used as a callback function where the value of fetchrequest argument, is that of the search value. 
+    - The argument being passed for the fetchRequst function is interpolated at the end of the api's url. 
+    - Once we've converted that data into json format, we then use a callback function of searchAndRender.
+    - The searchAndRender function takes the data form the search and renders it to the page 
+    - 
+    
+    
 
