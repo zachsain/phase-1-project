@@ -5,7 +5,7 @@
 * Whiskey go go is a search app that allows users to search their favorite alcohol and discover new cocktails. 
 * The application utilizes a public api of cocktails / liqours.
 * When a user discovers a new drink they can add it to their cocktail library, with the 'add to library' button.
-* Once added to their library the user can that click on a cocktail to view the ingrediants or remove the cocktail from their library.  
+* Once added to their library the user can that click on a cocktail to view the ingredients or remove the cocktail from their library.  
 
 # Public API Used: 
 
@@ -14,10 +14,10 @@ https://www.thecocktaildb.com/api.php?ref=apilist.fun
 
 # How to use application:
 
-* Open index.html file in the broswer 
-* Type in search bar the liqour of your choice 
-* Select cocktails to add to your library using the 'add to library' button
-*  Click on cocktails from your library for cocktail description, and to remove cocktail form library 
+* Open index.html file in the broswer.
+* Type in search bar the liqour of your choice. 
+* Select cocktails to add to your library using the 'add to library' button.
+*  Click on cocktails from your library for cocktail ingredients, and to remove cocktail form library.
 
 # How to interpret the code:
 
@@ -40,7 +40,7 @@ https://www.thecocktaildb.com/api.php?ref=apilist.fun
 
 * The renderLibraryCard Function 
     - The renderLibrary Function does the exact same thing as the searchAndRender function with some small tweaks.
-    - It renders a bigger card in the middle of the page with the drinks image. name, ingrediants, and a button to remove that drink from the library. 
+    - It renders a bigger card in the middle of the page with the drinks image. name, ingredients, and a button to remove that drink from the library. 
 
     
     
