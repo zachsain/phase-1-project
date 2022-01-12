@@ -20,15 +20,27 @@ https://www.thecocktaildb.com/api.php?ref=apilist.fun
 * Select cocktails to add to your library using the 'add to library' button
 *  Click on cocktails from your library for cocktail description, and to remove cocktail form library 
 
-# How to interpret the code 
+# How to interpret the code:
 
-* The first function in the code is the fetch request 
+* The fetchRequst Function 
+
     - This is where we are fetching the data from the api. 
     - This function will later be used as a callback function where the value of fetchrequest argument, is that of the search value. 
     - The argument being passed for the fetchRequst function is interpolated at the end of the api's url. 
     - Once we've converted that data into json format, we then use a callback function of searchAndRender.
+
+* The searchAndRender Function 
+
     - The searchAndRender function takes the data form the search and renders it to the page 
-    - 
+    - searchAndRender uses a callback in the button event listener to call libraryRender which takes an argument of cocktailLibrary (found at the top of the page)
+
+* The libraryRender Function: 
+    - This function takes the drinks that have been clicked on the add to library button and renders them to the library div
+    - Once a cocktail image has been added to the cocktail library and event listener is added for when a user clicks that image
+    - Once a user clicks that image renderLibraryCard is then called with the argument of the drink that was clicked 
+
+* The renderLibrary Function 
+
     
     
 
