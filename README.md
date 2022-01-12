@@ -40,7 +40,7 @@ https://www.thecocktaildb.com/api.php?ref=apilist.fun
     - Once a user clicks that image renderLibraryCard is then called with the argument of the drink that was clicked. 
 
 * The renderLibraryCard Function 
-    - The renderLibrary Function does the exact ssame thing and the searchAndRender function with some small tweaks.
+    - The renderLibrary Function does the exact same thing and the searchAndRender function with some small tweaks.
     - In renders a bigger card in the middle of the page with the drinks. name, ingrediants, and the ability to remove that drink from the library, 
 
     
