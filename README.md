@@ -2,11 +2,10 @@
 
 # Goals of application 
 
-* Whiskey go go is a search app that allows users to type in their favorite alcohol and discover new cocktails that use the liqour in their search. 
-* The application utilizes a public api of cocktails / liqours 
-* When a user discovers a new drink they can add it to their cocktail library, with the 'add to library' button
-* Once added to their library the user can that click on the cocktail to show them the ingrediants in the cocktail 
-* The user can then choose if they want to remove the cocktail from their library
+* Whiskey go go is a search app that allows users to search their favorite alcohol and discover new cocktails. 
+* The application utilizes a public api of cocktails / liqours.
+* When a user discovers a new drink they can add it to their cocktail library, with the 'add to library' button.
+* Once added to their library the user can that click on a cocktail to view the ingrediants or remove the cocktail from their library.  
 
 # Public API Used: 
 
