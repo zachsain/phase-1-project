@@ -35,12 +35,11 @@ function searchAndRender(data) {
         div3.appendChild(drinkImage)
         div3.appendChild(button)
 
-        console.log(drink.strDrink)
-
+      
         button.addEventListener('click', e => {
 
             cocktailLibrary.push(drink)
-            console.log(cocktailLibrary)
+            
             libraryRender(cocktailLibrary)
 
 
@@ -94,14 +93,15 @@ function renderLibraryCard(drink) {
     console.log(drink.strDrink)
  
     button.addEventListener('click', e => {
-        console.log(e.target.id)
+        
         let newCocktailLibrary = cocktailLibrary.filter(drink => drink.idDrink != e.target.id)
-        console.log(cocktailLibrary)
+        
         libraryRender(newCocktailLibrary)
     })
      
  
  }
+ 
 
 //add to library
 function libraryRender(drinkLibrary) {
@@ -120,21 +120,18 @@ function libraryRender(drinkLibrary) {
         drinkImage.addEventListener('click', e => {
             renderLibraryCard(drink)
         })
-        
-
-
      
     })
 
 }
 
-// Event listeners 
+
 function searchButton() {
     const submitForm = document.getElementById('cocktail-form')
     submitForm.addEventListener('submit', e => {
         e.preventDefault()
         let searchInput = document.querySelector('#search')
-        console.log(searchInput.value)
+        
         fetchRequest(searchInput.value);
 
     })
